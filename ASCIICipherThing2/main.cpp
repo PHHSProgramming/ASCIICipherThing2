@@ -22,7 +22,7 @@ void CodeMessage(int cKey, const char *inputfile, const char *outputfile);
 void DecodeMessage(int cKey, const char *inputfile, const char *outputfile);
 
 
-//Clean and simple.
+//Main.
 int main(int argc, char* argv[])
 {
 	int cipherKey;
