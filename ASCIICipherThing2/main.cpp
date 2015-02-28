@@ -1,8 +1,7 @@
 //ASCII Cipher Thing: Cleaned Up and Revised 02.18.15
 
-//In the original, there were two other headers that were included, stdlib.h and stdio.h. I include these out of habit and in this case, they are not needed.
-#include <iostream>		//input output stream, used for cout and cin.
-#include <fstream>		//file stream, used for ofstream and ifstream.
+#include <iostream>		//cout and cin.
+#include <fstream>		//ofstream and ifstream.
 #include <string>		//Since I don't like character arrays and find strings easier to work with. 
 
 //Even though this can be considered bad practice, I'm too lazy to type out std:: every time so I use this.
